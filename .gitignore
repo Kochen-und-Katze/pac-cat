@@ -1,0 +1,15 @@
+# Die Programmdatei wird als Release-Anhang bereitgestellt.
+*.exe
+*.zip
+*.pdb
+*.log
+*.tmp
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+highscores.json
+profile.json
+pruefung/
+work/

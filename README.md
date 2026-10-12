@@ -1,28 +1,27 @@
 # Pac Cat
 
-Pac Cat ist ein kleines Labyrinthspiel für Windows: Steuere eine Katze durch das Labyrinth, sammle Leckerlis und weiche Gefahren aus. Futternäpfe, Medkits, Powerobjekte und Katzenbäume ergänzen das Spiel.
+Pac Cat ist ein Windows-Labyrinthspiel mit Katzenfigur, Hundegeistern, Sammelgegenständen, verschiedenen Spielwelten und einem getrennten Entwicklerbaukasten. Diese Ausgabe ist eine **Testversion**, keine fertige Vollversion. Viele Levelplätze verwenden noch vorhandene Labyrinthvorlagen.
 
-Diese erste Testveröffentlichung enthält fünf auswählbare Spielwelten mit insgesamt 60 vorbereiteten Levelplätzen. Die Level verwenden vorhandene Labyrinthvorlagen; 60 vollständig unterschiedliche Labyrinthe werden damit nicht versprochen. Die Spielausgabe enthält keinen Leveleditor.
+## Downloads: v0.2.0-preview
 
-![Pac Cat im Spiel](bilder/spiel-standard.png)
+| Ich möchte … | Download | Start |
+|---|---|---|
+| Nur spielen | [Spielerpaket als ZIP](https://github.com/Kochen-und-Katze/pac-cat/releases/download/v0.2.0-preview/Pac-Cat-Windows-v0.2.0-preview.zip) | Entpacken, `Pac-Cat.exe` doppelklicken |
+| Direkt die einzelne Spiel-EXE | [Pac-Cat.exe](https://github.com/Kochen-und-Katze/pac-cat/releases/download/v0.2.0-preview/Pac-Cat.exe) | Doppelklicken |
+| Eigene Levels bauen und testen | [Entwicklerbaukasten als ZIP](https://github.com/Kochen-und-Katze/pac-cat/releases/download/v0.2.0-preview/Pac-Cat-Baukasten-Windows-v0.2.0-preview.zip) | Komplett entpacken, `bin/Pac-Cat-Baukasten.exe` starten |
+| Downloads prüfen | [SHA256SUMS.txt](https://github.com/Kochen-und-Katze/pac-cat/releases/download/v0.2.0-preview/SHA256SUMS.txt) | SHA-256 mit heruntergeladener Datei vergleichen |
 
-## Herunterladen und starten
+[Neue Veröffentlichung](https://github.com/Kochen-und-Katze/pac-cat/releases/tag/v0.2.0-preview) · [Bisherige Ausgabe v0.1.0-preview](https://github.com/Kochen-und-Katze/pac-cat/releases/tag/v0.1.0-preview)
 
-Nach Veröffentlichung findest du unter **Releases** die Datei **Pac-Cat.exe**. Lade diese Datei herunter und starte sie per Doppelklick. Ein GitHub-Konto ist zum Herunterladen einer öffentlichen Veröffentlichung nicht erforderlich. Ein ZIP-Paket mit Anleitung wird zusätzlich angeboten. Nicht den automatisch erzeugten „Source code“-Download wählen.
+Der Hund ist in der neuen Spielerfassung eingebaut und erscheint standardmäßig in jeder Welt ab Level 3. Kein Zusatzmodul muss installiert werden. Die alte Veröffentlichung erhält dadurch kein Update.
 
-Die EXE enthält die benötigten Spielgrafiken. Ein zusätzlicher Asset-Ordner oder eine Installation des Spiels ist nicht nötig. Voraussetzung ist Windows mit .NET Framework 4.5 oder neuer. Auf dem Windows-PC der Entwicklung wurde die getrennte Ausgabe geprüft; andere Windows-Versionen sind noch nicht abschließend getestet. macOS, Linux und Browser werden durch diese Ausgabe nicht unterstützt.
+## Anleitungen
 
-## Kurz erklärt
+- [Spielen und Hund ausprobieren](ANLEITUNG.md)
+- [Baukasten, eigene Level und Spielausgabe](BAUKASTEN.md)
+- [Änderungen und Prüfumfang](AENDERUNGEN.md)
+- [Quellen und Nutzungsrechte](QUELLEN.md)
 
-1. Öffne **Spielwelten**, wähle eine Welt und anschließend ein Level.
-2. Bewege Pac Cat mit den **Pfeiltasten** oder **WASD**.
-3. Sammle die verbleibenden Leckerlis, achte auf die Lebensanzeige und meide Hundeknochen und Geister.
-4. **Esc** öffnet das Spielmenü. **F10** bringt dich zurück zur Spielauswahl. **R** startet das aktuelle Level neu.
+Windows mit .NET Framework 4.5 oder neuer; das Framework ist auf vielen aktuellen Windows-Systemen bereits vorhanden. Kein GitHub-Konto und keine Programmierkenntnisse nötig. Die EXEs sind nicht digital signiert; Windows kann beim Start eine Warnung anzeigen.
 
-Fortschritt und Highscores werden lokal im Windows-Benutzerordner gespeichert. Es werden keine persönlichen Spielstände mitgeliefert. Die ausführlichere Anleitung steht in [ANLEITUNG.md](ANLEITUNG.md).
-
-## Stand und Hinweise
-
-Diese Ausgabe ist ein früher spielbarer Stand. Teile der Oberfläche enthalten weiterhin Prototyptexte oder vorbereitete Funktionen. Eine Anzeige „PLAYER 2“ ist keine Zusage eines fertigen Mehrspielermodus. Die EXE ist nicht digital signiert; Windows kann beim Download oder Start eine Warnung anzeigen. Sicherheitsfunktionen müssen für das Spiel nicht pauschal deaktiviert werden.
-
-Quellen verwendeter Fremdinhalte stehen in [QUELLEN.md](QUELLEN.md). Diese Veröffentlichung beinhaltet keine Open-Source-Lizenz für den Spielcode und erteilt keine pauschalen Nutzungsrechte an einzelnen Grafiken oder Musikdateien.
+Der Baukasten enthält die bestehenden Werkzeuge und den integrierten Hund. Ein allgemeiner Import beliebiger Gegnermodule und automatische Updates gehören nicht zu dieser Ausgabe. Dieses Repository enthält fertige Downloads und Dokumentation; der vollständige Spielquellcode wird mit dieser Veröffentlichung nicht bereitgestellt.

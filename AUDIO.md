@@ -12,7 +12,7 @@ Der Entwicklerbaukasten enthält jetzt eine gemeinsame Geräuschverwaltung für 
 6. **Geladenen Ausschnitt diesem Ereignis zuordnen** wählen. Falls nötig zuerst einen Namen für das Audioprojekt angeben. Die Zuordnung wird sofort gespeichert; benötigte Audiodaten werden in den eigenen Arbeitsordner kopiert.
 7. Über **Zuordnung bearbeiten** den bisherigen Ausschnitt laden, ändern und erneut zuordnen. **Zuordnung entfernen** entfernt die zusätzliche Regel für dieses Ereignis.
 
-Ein neuer Baukasten und die Standard-Spielerfassung enthalten zwölf kurze, unterscheidbare **vorläufige Testtöne**. Diese sind noch keine endgültigen Bell- oder Spielgeräusche. **Testtöne einrichten** ersetzt nach Rückfrage die zwölf Zuordnungen durch diese Platzhalter.
+Ein neuer Baukasten und die Standard-Spielerfassung enthalten vierzehn kurze, unterscheidbare **vorläufige Testtöne**. Diese sind noch keine endgültigen Bell- oder Spielgeräusche. **Testtöne einrichten** ersetzt nach Rückfrage die vierzehn Zuordnungen durch diese Platzhalter.
 
 ## Verfügbare Ereignisse
 
@@ -27,7 +27,9 @@ Ein neuer Baukasten und die Standard-Spielerfassung enthalten zwölf kurze, unte
 | Hund bellt | Das Hundemodul meldet Bellen |
 | Hund versucht anzugreifen | Ein Kontaktangriff wird versucht |
 | Hund beißt | Der Angriff zieht tatsächlich Gesundheit oder ein Leben ab |
-| Hund mit P besiegt | Der Hund wird durch P-Kraft besiegt; 75 Punkte |
+| Hund mit P besiegt | Bis Level 3: Hund durch P-Kraft besiegt; 75 Punkte |
+| Goldener Knochen | Gold wird harmlos eingesammelt |
+| Hund macht PLATZ | Ein aktiver Hund beginnt seine Stillhaltephase |
 
 Angriff und Biss sind getrennt. Schutz kann den Biss verhindern, während der Angriffston dennoch gespielt wird. Ein P-Sieg löst keinen Angriff oder Biss aus. Schnelle Wiederholungen desselben Klangereignisses werden begrenzt; unterschiedliche Ereignisse können gleichzeitig erklingen.
 
@@ -46,3 +48,5 @@ Geräuschdateien sind auf 20 MB je Zuordnung begrenzt. Nur Inhalte verwenden, de
 Technisch geprüft wurden Vorschau und fortschreitende Windows-Abspielposition, Speichern/Neuladen, Ausschnitt/Lautstärke, Kopieren des Arbeitsordners, tatsächliche Sammel-/Geist-/Hundeereignisse, Schutz und P-Sieg, eigene Levelprojekttests und eigenständige Spielerexporte. Bestehende Audio- und Hundetests bestehen weiterhin.
 
 Bitte selbst prüfen: Klangqualität, gewünschte Lautstärken und mögliche störende Überlagerungen. Es gab keinen unabhängigen Hörtest sämtlicher Situationen und keinen Test auf einem fremden Windows-PC.
+
+Ab Level 4 besiegt P den Hund nicht mehr. Gold- und PLATZ-Ereignisse werden in der bestehenden Verwaltung zugeordnet; vorhandene Zuordnungen werden beim ersten Start erhalten und nur die zwei fehlenden neuen Einträge ergänzt.

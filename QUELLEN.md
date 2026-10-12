@@ -22,4 +22,5 @@ Die [OpenAI-Nutzungsbedingungen](https://openai.com/policies/eu-terms-of-use/) o
 Für den Spielcode wird mit diesem Paket keine Open-Source-Lizenz vergeben. Die Musiklizenz gilt ausschließlich für die betreffende Aufnahme. Pac Cat wird als eigenständiges Projekt veröffentlicht; eine Zugehörigkeit zu Herstellern anderer Arcade-Spiele wird nicht behauptet. Eine umfassende rechtliche Prüfung von Namen und Gestaltung wurde nicht durchgeführt.
 
 ## Vorläufige Spielgeräusche
-Die zwölf Testtöne dieser Preview werden vom Pac-Cat-Testtongenerator als kurze Sinussignale im WAV-Format erzeugt. Es wurden dafür keine fremden Tonaufnahmen übernommen. Diese Herkunftsangabe vergibt keine allgemeine Open-Source-Lizenz für Spielcode oder Grafiken.
+Die vierzehn Testtöne dieser Preview werden vom Pac-Cat-Testtongenerator als kurze Sinussignale im WAV-Format erzeugt. Es wurden dafür keine fremden Tonaufnahmen übernommen. Diese Herkunftsangabe vergibt keine allgemeine Open-Source-Lizenz für Spielcode oder Grafiken.
+Die goldenen Knochen verwenden die bestehende Knochenform mit einer im Spielcode erzeugten Goldfärbung und Glanzmarkierung. Die PLATZ-Pose wird vom vorhandenen Hundemodul gezeichnet; es wurden keine neuen fremden Bilddateien hinzugefügt.

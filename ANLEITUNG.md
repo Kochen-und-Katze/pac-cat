@@ -12,7 +12,7 @@ Pac Cat wird mit den Pfeiltasten gesteuert; WASD kann in den Optionen aktiviert 
 - Er verfolgt Pac Cat und kann bei Berührung Gesundheit abziehen.
 - Ein Auftritt dauert höchstens 15 Sekunden. In den letzten drei Sekunden zieht er sich ungefährlich zu einem Tunnel zurück und verschwindet spätestens am Zeitlimit.
 - Nach seinem Verschwinden oder seiner Niederlage folgen 60 Sekunden Pause bis zum nächsten Auftritt.
-- Während aktiver violetter P-Kraft besiegt Pac Cat den Hund durch Berührung ohne Schaden und erhält 75 Punkte.
+- In Level 3 besiegt aktive P-Kraft den Hund und gibt 75 Punkte. Ab Level 4 schützt P vor Bissen, entfernt den Hund aber nicht. Goldene Knochen lassen den aktiven Hund vier Sekunden PLATZ machen.
 - Bestehende Schutzmechanismen bleiben wirksam. Menüs und Unterbrechungen zählen nicht als normale aktive Spielzeit.
 
 Die Hundegrafik ist vorläufig. Die Entwicklerfassung kann die Hunderegel pro Welt und Level verändern; die Standard-Spielerfassung benötigt solche Einstellungen nicht.
@@ -25,3 +25,4 @@ Für eigene Levels brauchst du den getrennten Baukasten-Download. Eine reine Spi
 
 ## Spielgeräusche
 Diese Preview enthält kurze, vorläufige Testtöne für Sammeln, Geistkontakt und die Hundeereignisse. Entwickler können sie im vorhandenen Audio-Baukasten ändern. Siehe AUDIO.md. Eigene Klangzuordnungen werden in exportierte Spieler-EXEs eingebettet.
+Ab Level 4 werden fünf braune Knochen durch goldene ersetzt. PLATZ verlängert die Hundezeit nicht. Details: GOLDENE-KNOCHEN.md.

@@ -45,9 +45,11 @@ Der Export enthält die wirksamen Hunderegeln, die übernommenen Labyrinthe und 
 
 Die vorhandenen Werkzeuge sind weiterhin teilweise Entwicklungswerkzeuge: Weihnachtsdekoration ist nicht automatisch eine neue Spielmechanik, und nicht jede vorbereitete Projekteigenschaft wirkt bereits im Spiel. Die beiliegende Bedienungsanleitung erklärt die bestehenden Werkzeuge ausführlicher.
 
-Das vorhandene Audiowerkzeug verwaltet jetzt gemeinsame Spielereignisse; siehe AUDIO.md. Der Hund wird mit derselben eigenständigen Modullogik wie in AUTOMATIK 0.4 betrieben. Weitere Gegner können später denselben Auswahl-, Projekt- und Exportweg verwenden; beliebige externe DLLs lassen sich hier noch nicht als neue Gegner installieren.
+Das vorhandene Audiowerkzeug verwaltet jetzt gemeinsame Spielereignisse; siehe AUDIO.md. Der Hund wird mit dem vorhandenen eigenständigen Modul und der neuen Goldstrategie betrieben. Weitere Gegner können später denselben Auswahl-, Projekt- und Exportweg verwenden; beliebige externe DLLs lassen sich hier noch nicht als neue Gegner installieren.
 
 Verwende für eigene Audio-/Grafikinhalte nur Inhalte, die du weitergeben darfst. Für Spielcode und Spielgrafiken wird keine allgemeine Open-Source-Lizenz vergeben. Siehe `QUELLEN.md`.
 
 ## Gemeinsame Spielgeräusche
-Baukästen → Audio-Baukasten → Spielgeräusche. Ereignis auswählen, Zuordnung anhören oder eigenen Ausschnitt zuordnen. Beim ersten Start werden zwölf vorläufige Testtöne vorbereitet. Bestehende Levelmusik bleibt getrennt. Details: AUDIO.md.
+Baukästen → Audio-Baukasten → Spielgeräusche. Ereignis auswählen, Zuordnung anhören oder eigenen Ausschnitt zuordnen. Beim ersten Start werden vierzehn vorläufige Testtöne vorbereitet. Bestehende Levelmusik bleibt getrennt. Details: AUDIO.md.
+## Goldene Knochen ab Level 4
+Im Levelprojekt Goldene Knochen platzieren / verwalten wählen. Vier/fünf automatisch oder sichere Knochenstellen selbst auswählen, ins Projekt übernehmen, speichern und testen. Ab Level 4 bleibt der Hund unter P erhalten; Gold befiehlt PLATZ. Export übernimmt die Knochenauswahl. Details: GOLDENE-KNOCHEN.md.

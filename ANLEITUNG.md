@@ -15,7 +15,7 @@ Pac Cat wird mit den Pfeiltasten gesteuert; WASD kann in den Optionen aktiviert 
 - In Level 3 besiegt aktive P-Kraft den Hund und gibt 75 Punkte. Ab Level 4 schützt P vor Bissen, entfernt den Hund aber nicht. Goldene Knochen lassen den aktiven Hund vier Sekunden PLATZ machen.
 - Bestehende Schutzmechanismen bleiben wirksam. Menüs und Unterbrechungen zählen nicht als normale aktive Spielzeit.
 
-Die Hundegrafik ist vorläufig. Die Entwicklerfassung kann die Hunderegel pro Welt und Level verändern; die Standard-Spielerfassung benötigt solche Einstellungen nicht.
+Der Hund verwendet jetzt die freigestellte Comic-Darstellung des bereitgestellten Entwurfs. Während PLATZ erscheint eine liegende Pose mit Zustandsanzeige. Die Bewegungsdarstellung nutzt Blickrichtung und leichtes Wippen; eine vollständige Laufbildfolge ist noch nicht enthalten. Siehe [HUND-GRAFIK.md](HUND-GRAFIK.md). Die Entwicklerfassung kann die Hunderegel pro Welt und Level verändern; die Standard-Spielerfassung benötigt solche Einstellungen nicht.
 
 ## Speichern und Weitergabe
 

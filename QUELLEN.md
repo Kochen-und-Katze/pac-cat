@@ -23,4 +23,10 @@ Für den Spielcode wird mit diesem Paket keine Open-Source-Lizenz vergeben. Die 
 
 ## Vorläufige Spielgeräusche
 Die vierzehn Testtöne dieser Preview werden vom Pac-Cat-Testtongenerator als kurze Sinussignale im WAV-Format erzeugt. Es wurden dafür keine fremden Tonaufnahmen übernommen. Diese Herkunftsangabe vergibt keine allgemeine Open-Source-Lizenz für Spielcode oder Grafiken.
-Die goldenen Knochen verwenden die bestehende Knochenform mit einer im Spielcode erzeugten Goldfärbung und Glanzmarkierung. Die PLATZ-Pose wird vom vorhandenen Hundemodul gezeichnet; es wurden keine neuen fremden Bilddateien hinzugefügt.
+Die goldenen Knochen verwenden die bestehende Knochenform mit einer im Spielcode erzeugten Goldfärbung und Glanzmarkierung.
+
+## Comic-Hundegrafik ab v0.5.0-preview
+
+Die normale Hundedarstellung wurde aus dem vom Projekteigentümer bereitgestellten Comic-Entwurf freigestellt. Die liegende PLATZ-Pose wurde mit ImageGen aus diesem Entwurf abgeleitet. Die Erzeugungs- und Bearbeitungsprotokolle bleiben lokal; das Paket enthält die benötigten Spielgrafiken.
+
+Es wurden dafür keine zusätzlichen fremden Bildvorlagen aus dem Internet übernommen. Die Herkunftsangaben zum bereitgestellten Entwurf richten sich nach der Erklärung des Projekteigentümers unter „Spielgrafiken“. Daraus wird keine allgemeine Open-Source- oder CC0-Lizenz für die Hundegrafiken abgeleitet.

@@ -22,3 +22,6 @@ Die Hundegrafik ist vorläufig. Die Entwicklerfassung kann die Hunderegel pro We
 Spielstände und gegebenenfalls Audio-Zwischenspeicher liegen im eigenen Windows-Benutzerordner. Das Spiel benötigt keinen Zugriff auf den ursprünglichen Entwicklungsordner. Jede exportierte Spielausgabe verwendet einen eigenen Speicherbereich; Spielstände der alten Veröffentlichung werden nicht automatisch übernommen.
 
 Für eigene Levels brauchst du den getrennten Baukasten-Download. Eine reine Spieler-EXE öffnet keine `.pclevel`-Projekte. Entwickler können ihre Projekte in eine eigenständige Spiel-EXE exportieren.
+
+## Spielgeräusche
+Diese Preview enthält kurze, vorläufige Testtöne für Sammeln, Geistkontakt und die Hundeereignisse. Entwickler können sie im vorhandenen Audio-Baukasten ändern. Siehe AUDIO.md. Eigene Klangzuordnungen werden in exportierte Spieler-EXEs eingebettet.

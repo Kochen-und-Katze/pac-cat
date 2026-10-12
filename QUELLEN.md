@@ -20,3 +20,6 @@ Die [OpenAI-Nutzungsbedingungen](https://openai.com/policies/eu-terms-of-use/) o
 ## Spielcode und Name
 
 Für den Spielcode wird mit diesem Paket keine Open-Source-Lizenz vergeben. Die Musiklizenz gilt ausschließlich für die betreffende Aufnahme. Pac Cat wird als eigenständiges Projekt veröffentlicht; eine Zugehörigkeit zu Herstellern anderer Arcade-Spiele wird nicht behauptet. Eine umfassende rechtliche Prüfung von Namen und Gestaltung wurde nicht durchgeführt.
+
+## Vorläufige Spielgeräusche
+Die zwölf Testtöne dieser Preview werden vom Pac-Cat-Testtongenerator als kurze Sinussignale im WAV-Format erzeugt. Es wurden dafür keine fremden Tonaufnahmen übernommen. Diese Herkunftsangabe vergibt keine allgemeine Open-Source-Lizenz für Spielcode oder Grafiken.
